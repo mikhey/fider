@@ -93,6 +93,7 @@ dockerize:
         username: $DOCKER_USER
         password: $DOCKER_PASS
         working-dir: /pipeline/output/app
+        registry: https://registry.hub.docker.com/v2
         tag: latest
         ports: 8080
         cmd: ./fider
